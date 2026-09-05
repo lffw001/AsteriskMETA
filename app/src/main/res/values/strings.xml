@@ -778,4 +778,19 @@
     <string name="settings_service_control_doze_note">Timers do not wake the device. If Android suspends the process, the latest missed action is reconciled after resume; stop wins when both are due.</string>
     <string name="settings_service_control_saving">Restarting…</string>
     <string name="settings_service_control_save_failed">Could not apply service control. Your edits were kept.</string>
+
+    <string name="settings_tun_shared_network_input">Downstream interface names</string>
+    <string name="settings_tun_shared_network">Tethering sharing</string>
+    <string name="settings_tun_shared_network_description">Enter one exact downstream interface name per item (for example ap0, rndis0, rmnet0, or ppp0). Wildcards and loopback are not supported.</string>
+    <string name="settings_tun_shared_network_empty">No downstream interfaces configured</string>
+    <string name="settings_tun_shared_network_none">Not enabled</string>
+    <string name="settings_tun_shared_network_selected">Configured interfaces: {count}</string>
+    <string name="settings_tun_bypass_rule_sets_summary_none">No rule sets selected</string>
+    <string name="settings_tun_bypass_rule_sets_summary_selected">Selected: {ruleSets}</string>
+    <string name="settings_tun_bypass_rule_sets_picker_title">Rule sets</string>
+    <string name="settings_tun_bypass_rule_sets_description">Only IP CIDRs in the selected rule sets bypass traffic capture. Domain rules do not apply.</string>
+    <string name="settings_tun_bypass_rule_sets_empty">No available IP CIDR rule sets in the current profile</string>
+    <string name="settings_tun_bypass_rule_set_unavailable">Unavailable in the current profile; bypass is inactive. Turn off to remove.</string>
+    <string name="settings_tun_shared_network_invalid">Invalid interface name</string>
+    <string name="settings_tun_bypass_rule_sets_no_match">No matching rule sets</string>
 </resources>

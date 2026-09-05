@@ -764,4 +764,19 @@
     <string name="settings_service_control_doze_note">定时器不会唤醒设备。Android 挂起进程时，将在恢复后补偿最近一次错过的动作；同时到期时停止优先。</string>
     <string name="settings_service_control_saving">正在重启…</string>
     <string name="settings_service_control_save_failed">服务控制应用失败，编辑内容已保留。</string>
+
+    <string name="settings_tun_shared_network_input">下游接口名称</string>
+    <string name="settings_tun_shared_network">热点共享设置</string>
+    <string name="settings_tun_shared_network_description">每项填写一个实际的下游接口名（如 ap0、rndis0、rmnet0 或 ppp0）。不支持通配符和 loopback。</string>
+    <string name="settings_tun_shared_network_empty">尚未配置下游接口</string>
+    <string name="settings_tun_shared_network_none">未启用</string>
+    <string name="settings_tun_shared_network_selected">已配置 {count} 个接口</string>
+    <string name="settings_tun_bypass_rule_sets_summary_none">未选择规则集</string>
+    <string name="settings_tun_bypass_rule_sets_summary_selected">已选择：{ruleSets}</string>
+    <string name="settings_tun_bypass_rule_sets_picker_title">规则集</string>
+    <string name="settings_tun_bypass_rule_sets_description">此处仅所选规则集中的 IP CIDR 会绕过流量接管，域名规则不生效</string>
+    <string name="settings_tun_bypass_rule_sets_empty">当前配置中没有可用的 IP CIDR 规则集</string>
+    <string name="settings_tun_bypass_rule_set_unavailable">当前配置中不可用，不会用于绕过；关闭以移除。</string>
+    <string name="settings_tun_shared_network_invalid">无效的接口名</string>
+    <string name="settings_tun_bypass_rule_sets_no_match">没有匹配的规则集</string>
 </resources>
